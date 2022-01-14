@@ -26,6 +26,11 @@ services:
 
 
 #============== AWS Resources ==================
-#public-a : 3.110.193.134
-#public-b : 3.110.207.205
-#elb : my-alb-1-1192568500.ap-south-1.elb.amazonaws.com
+#elb : alb-1710564136.ap-south-1.elb.amazonaws.com
+#public-a : 13.127.110.239
+#public-b : 13.126.207.199
+
+#bastion-host : 13.232.118.7
+
+#private-a : 10.0.4.200
+#private-b : 10.0.5.59
