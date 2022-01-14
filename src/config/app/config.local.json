@@ -1,0 +1,28 @@
+{
+  "application": {
+    "name": "Backend-serviced",
+    "port": 8080
+  },
+  "database": {
+    "client": "mongodb",
+    "db_name": "default",
+    "dev": {
+      "host": "localhost",
+      "port1": "40000",
+      "port2": "40001",
+      "port3": "40002"
+    },
+    "replica_1": {
+      "host": "mongo1",
+      "port": "40001"
+    },
+    "replica_2": {
+      "host": "mongo2",
+      "port": "40002"
+    },
+    "replica_3": {
+      "host": "mongo3",
+      "port": "40003"
+    }
+  }
+}

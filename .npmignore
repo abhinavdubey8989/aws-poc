@@ -1,0 +1,28 @@
+
+#while publishing to NPM , the below will be ignored
+#basically we want to publish "dist" folder only
+
+#folders
+.vscode
+node_modules
+logs
+src
+uploads
+
+
+
+#extensions
+*.csv
+*.ico
+*.json
+*.gz
+*.log
+
+#files
+.dockerignore
+.eslintrc
+.npmrc
+Dockerfile
+jest.config.js
+.gitignore
+

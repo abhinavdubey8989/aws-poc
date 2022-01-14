@@ -1,0 +1,26 @@
+
+#folders to ignore
+node_modules/
+.vscode/
+logs/
+test/
+dist/
+elk/
+uploads/
+to-do/
+deployment/
+
+
+#ignore files
+.dockerignore
+.gitignore
+
+
+#docker files
+Dockerfile
+docker-compose.yml
+
+
+#other files
+README.md
+

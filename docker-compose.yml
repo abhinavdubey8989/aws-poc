@@ -1,0 +1,31 @@
+version: "3"
+services:
+  logstash:
+    image: my-backend-app
+    ports:
+      - "8080:8080"
+    command: npm start
+    volumes:
+      - /home/ubuntu/backend_custom_logs:/backend/logs/
+
+
+#  git config user.email "abhinavdubey8989@gmail.com"
+#  git config user.email "abhinavdubey8989"
+
+#============== start ==================
+#sudo docker build -t my-backend-app .      
+#sudo docker-compose up -d
+#sudo docker-compose down
+
+#go inside container => sudo docker exec -it <contaner-id/name> bash
+
+
+#============== clean up ==================
+#1. remove container : sudo docker container prune
+#2. remove image : sudo docker rmi my-backend-app
+
+
+#============== AWS Resources ==================
+#public-a : 3.110.193.134
+#public-b : 3.110.207.205
+#elb : my-alb-1-1192568500.ap-south-1.elb.amazonaws.com

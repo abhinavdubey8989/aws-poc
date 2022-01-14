@@ -1,0 +1,22 @@
+{
+  "application": {
+    "name": "kenko-web-backend",
+    "port": 8080
+  },
+  "database": {
+    "client": "mongodb",
+    "db_name": "default",
+    "dev": {
+      "host": "localhost",
+      "port": "40000"
+    },
+    "replica_1": {
+      "host": "127.0.0.1",
+      "port": "27017"
+    },
+    "replica_2": {
+      "host": "127.0.0.1",
+      "port": "27017"
+    }
+  }
+}
